@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import HigherOrderFn from "./HigherOrderFn/HigherOrderFn";
+import Closurse from "./Closurse/Closurse";
+import UseCallbacksHooks from "./UsecallbacksHook/UseCallbacks";
+import UseMemoHooks from "./UseMemoHooks/UseMemo";
+import UseEffectsHooks from "./UseEffectsHooks/UseEffects";
+// import Context from "./Context/Context";
+// import ComponentA from "./Context/ComponentA";
+import Custom from "./Custom/Custom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HigherOrderFn />
+      <Closurse />
+      <UseCallbacksHooks />
+      <UseMemoHooks />
+      <UseEffectsHooks />
+      {/* <Context>
+        <ComponentA />
+      <Context/>  */}
+      <Custom />
     </div>
   );
 }
