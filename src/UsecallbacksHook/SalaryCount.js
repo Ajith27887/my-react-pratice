@@ -4,7 +4,7 @@ function SalaryCount({ Salary }) {
   return (
     <div>
       {console.log("Salary rendered")}
-      <p>Salary : {Salary}</p>
+      <p>{Salary}</p>
     </div>
   );
 }

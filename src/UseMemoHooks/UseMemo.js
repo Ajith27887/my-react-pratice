@@ -26,7 +26,6 @@ function UseMemoHooks() {
 
   return (
     <div>
-      <h3>UseMemo Hooks</h3>
       <button onClick={CountOneHandler}>Count : {countOne}</button> <br></br>
       <span>DoubleNumber : {DoubleNumber}</span>
       <br></br>

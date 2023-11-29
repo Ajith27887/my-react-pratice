@@ -4,7 +4,7 @@ function AgeCount({ Age }) {
   return (
     <div>
       {console.log("Age is rendered")}
-      <p>Age : {Age}</p>
+      <p>{Age}</p>
     </div>
   );
 }

@@ -19,7 +19,6 @@ function UseEffectsHooks() {
   return (
     <div>
       {/* {console.log(results)} */}
-      <h3>UseEffect</h3>
       <button onClick={idHandler}>Changer Names</button>
       {results &&
         results?.map((item) => {
